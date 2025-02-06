@@ -10,7 +10,7 @@ const frontend_URL = 'https://tomato-frontend-ds0g.onrender.com';
 
 // Placing User Order for Frontend
 const placeOrder = async (req, res) => {
-ss
+
     try {
         const newOrder = new orderModel({
             userId: req.body.userId,
