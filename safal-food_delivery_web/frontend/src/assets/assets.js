@@ -7,10 +7,8 @@
 
 
 import basket_icon from './basket_icon.png'
-
 import signin_banner from './signin_banner.png';
 import signup_banner from './signup_banner.png';
-
 
 import logo from './logo.png'
 import header_img from './header_img.png'
@@ -74,7 +72,8 @@ import logout_icon from './logout_icon.png'
 import parcel_icon from './parcel_icon.png'
 
 export const assets = {
-    
+   
+    food_banner,
     signup_banner,
    signin_banner,
     logo,
