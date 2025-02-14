@@ -360,6 +360,6 @@ export const food_list = [
         image: food_32,
         price: 15,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Noodles"
+        category: "Noodless"
     }
 ]
