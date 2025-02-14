@@ -136,21 +136,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 import orderModel from "../models/orderModel.js";
 import userModel from "../models/userModel.js"
 import Stripe from "stripe";
@@ -272,6 +257,17 @@ const verifyOrder = async (req, res) => {
 }
 
 export { placeOrder, listOrders, userOrders, updateStatus ,verifyOrder }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
