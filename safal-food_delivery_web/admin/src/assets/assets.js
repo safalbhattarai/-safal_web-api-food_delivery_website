@@ -15,3 +15,15 @@ export const assets ={
 }
 
 export const url = 'https://tomato-food-del-backend-p1ni.onrender.com'
+
+
+
+
+
+export const assets = {
+    signin_banner: require("./signin_banner.png"),
+    signup_banner: require("./signup_banner.png"),
+    login_image: require("./login_user.png"),  // Add this image
+    signup_image: require("./signup_user.png"), // Add this image
+    cross_icon: require("./cross_icon.png"),
+};
