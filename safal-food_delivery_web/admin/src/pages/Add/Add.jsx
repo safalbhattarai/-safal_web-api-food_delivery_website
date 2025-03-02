@@ -1,19 +1,19 @@
-// import React, { useState } from 'react'
-// import './Add.css'
-// import { assets,url } from '../../assets/assets';
-// import axios from 'axios';
-// import { toast } from 'react-toastify';
+import React, { useState } from 'react'
+import './Add.css'
+import { assets,url } from '../../assets/assets';
+import axios from 'axios';
+import { toast } from 'react-toastify';
 
-// const Add = () => {
+const Add = () => {
 
-//     const [data, setData] = useState({
-//         name: "",
-//         description: "",
-//         price: "",
-//         category: "Salad"
-//     });
+    const [data, setData] = useState({
+        name: "",
+        description: "",
+        price: "",
+        category: "Salad"
+    });
 
-//     const [image, setImage] = useState(false);
+    const [image, setImage] = useState(false);
 
     const onSubmitHandler = async (event) => {
         event.preventDefault();
