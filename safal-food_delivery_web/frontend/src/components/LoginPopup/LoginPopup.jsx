@@ -134,11 +134,11 @@ const LoginPopup = ({ setShowLogin }) => {
             <form onSubmit={onLogin} className="login-popup-container">
                 
                 {/* ✅ Display different banner images based on currState */}
-                <img 
+                {/* <img 
                     className="login-banner" 
                     src={currState === "Login" ? assets.signin_banner : assets.signup_banner} 
                     alt={currState} 
-                />
+                /> */}
 
                 <div className="login-popup-title">
                     <h2>{currState}</h2> 
