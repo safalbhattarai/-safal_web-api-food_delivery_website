@@ -92,7 +92,6 @@
 
 
 
-
 import React, { useContext, useState } from 'react';
 import './LoginPopup.css';
 import { assets } from '../../assets/assets';
@@ -134,7 +133,7 @@ const LoginPopup = ({ setShowLogin }) => {
         <div className='login-popup'>
             <form onSubmit={onLogin} className="login-popup-container">
                 
-                {/* ✅ Display different images based on currState */}
+                {/* ✅ Display different banner images based on currState */}
                 <img 
                     className="login-banner" 
                     src={currState === "Login" ? assets.signin_banner : assets.signup_banner} 
@@ -145,6 +144,13 @@ const LoginPopup = ({ setShowLogin }) => {
                     <h2>{currState}</h2> 
                     <img onClick={() => setShowLogin(false)} src={assets.cross_icon} alt="Close" />
                 </div>
+
+                {/* ✅ Add a Profile Image in Login/Signup */}
+                <img 
+                    className="login-profile-img" 
+                    src={assets.user_profile}  // Make sure you have this image in assets
+                    alt="User Profile" 
+                />
 
                 <div className="login-popup-inputs">
                     {currState === "Sign Up" && <input name='name' onChange={onChangeHandler} value={data.name} type="text" placeholder='Your name' required />}
@@ -169,3 +175,4 @@ const LoginPopup = ({ setShowLogin }) => {
 };
 
 export default LoginPopup;
+
