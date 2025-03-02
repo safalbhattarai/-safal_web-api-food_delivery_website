@@ -363,3 +363,68 @@ export const food_list = [
         category: "Noodles"
     }
 ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+import basket_icon from './basket_icon.png'
+import signin_banner from './signin_banner.png';
+import signup_banner from './signup_banner.png';
+
+import logo from './logo.png'
+import header_img from './header_img.png'
+import search_icon from './search_icon.png'
+import menu_1 from './menu_1.png'
+import menu_2 from './menu_2.png'
+import menu_3 from './menu_3.png'
+import menu_4 from './menu_4.png'
+import menu_5 from './menu_5.png'
+import menu_6 from './menu_6.png'
+import menu_7 from './menu_7.png'
+import menu_8 from './menu_8.png
